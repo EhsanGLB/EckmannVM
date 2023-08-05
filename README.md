@@ -3,7 +3,7 @@ This is a library for Eckmann viscosity model written based on foam-extend-4.1.
 
 
 ## Mathematical Relationships
-$$ {\nu} = {e^{ {\lambda \over \dot{\gamma} } + \eta Hct } \over \rho} {\left({\alpha + {\phi \over {1 + e^{\beta \left({T - \kesi}\right) } } } }\right)} $$
+$$ {\nu} = {e^{ {\lambda \over \dot{\gamma} } + \eta Hct } \over \rho} {\left({\alpha + {\phi \over {1 + e^{\beta \left({T - \xi}\right) } } } }\right)} $$
 
 Which $\nu$, $\dot{\gamma}$, and $Hct$ are kinematic viscosity, strain rate, and hematocrit, respectively.
 
