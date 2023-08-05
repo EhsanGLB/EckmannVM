@@ -3,6 +3,9 @@ This is a library for Eckmann viscosity model written based on foam-extend-4.1.
 
 
 ## Mathematical Relationships
+$$ {\nu} = {1 \over \rho} e^{ {\lambda \over \dot{\gamma} } + \etha Hct } $$
+
+Which $\nu$, $\dot{\gamma}$, and $Hct$ are kinematic viscosity, strain rate, and hematocrit, respectively.
 
 
 ## Installation
