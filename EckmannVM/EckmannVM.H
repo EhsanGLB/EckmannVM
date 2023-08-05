@@ -30,6 +30,9 @@ Description
 SourceFiles
     EckmannVM.C
 
+Author
+    Ehsan Golab, SUT. All rights reserved.
+
 \*---------------------------------------------------------------------------*/
 
 #ifndef EckmannVM_H
