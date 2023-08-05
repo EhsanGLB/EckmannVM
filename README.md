@@ -1,5 +1,5 @@
 # EckmannVM
-This is a library for Ameenuddin viscosity model written based on foam-extend-4.1.
+This is a library for Eckmann viscosity model written based on foam-extend-4.1.
 
 
 ## Mathematical Relationships
