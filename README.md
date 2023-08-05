@@ -5,7 +5,7 @@ This is a library for Eckmann viscosity model written based on foam-extend-4.1.
 ## Mathematical Relationships
 $$ {\nu} = {e^{ {\lambda \over \dot{\gamma} } + \eta Hct } \over \rho} {\left({\alpha + {\phi \over {1 + e^{\beta \left({T - \xi}\right) } } } }\right)} $$
 
-Which $\nu$, $\dot{\gamma}$, and $Hct$ are kinematic viscosity, strain rate, and hematocrit, respectively.
+Which $\nu$, $\dot{\gamma}$, $T$, and $Hct$ are kinematic viscosity, strain rate, temperature, and hematocrit, respectively. Also, The constants $\lambda$, $\eta$, $\alpha$, $\phi$, $\beta$, and $\xi$ describe the individual shear, thermal, and volume fraction effects of a particular diluent.
 
 
 ## Installation
@@ -27,6 +27,10 @@ nonNewtonianIcoFoam
 
 ## Activation
 Add "libEckmannVM.so" to case/system/controlDict
+
+
+## Origin References
+* [Eckmann, D.M., Bowers, S., Stecker, M. and Cheung, A.T., 2000. Hematocrit, volume expander, temperature, and shear rate effects on blood viscosity. Anesthesia & Analgesia, 91(3), pp.539-545.](https://journals.lww.com/anesthesia-analgesia/FullText/2000/09000/Hematocrit,_Volume_Expander,_Temperature,_and.7.aspx)
 
 
 ## References
