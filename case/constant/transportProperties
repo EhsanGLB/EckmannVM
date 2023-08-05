@@ -1,0 +1,35 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.1                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+transportModel  EckmannVM;
+
+nu              nu [0 2 -1 0 0 0 0] 1;
+
+EckmannVMCoeffs
+{
+    lambda			lambda [ 0 0 -1 0 0 0 0 ] 9.21;
+    etha			etha [ 0 0 0 0 0 0 0 ] 0.0137;
+    alpha			alpha [ 0 0 0 0 0 0 0 ] 1.74;
+    phi				phi [ 0 0 0 0 0 0 0 ] 9.78;
+    beta			beta [ 0 0 0 -1 0 0 0 ] 0.28;
+    kesi			kesi [ 0 0 0 1 0 0 0 ] 15.2;
+    rho				rho [1 -3 0 0 0 0 0] 1060;
+    hct				hct [0 0 0 0 0 0 0] 0.4; //hct is between 0 to 1.
+    T				T [0 0 0 1 0 0 0] 300.0;
+}
+
+
+// ************************************************************************* //
